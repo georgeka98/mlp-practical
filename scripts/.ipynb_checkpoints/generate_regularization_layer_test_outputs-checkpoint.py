@@ -3,10 +3,7 @@ import os
 import numpy as np
 
 import sys
-
-print('paths', os.getcwd(), os.path)
-
-sys.path.append(os.getcwd())
+# sys.path.append('/path/to/mlpractical')
 
 from mlp.layers import DropoutLayer
 from mlp.penalties import L1Penalty, L2Penalty
